@@ -1,0 +1,70 @@
+img {
+    width: 30%;
+    margin: 1.57%;
+    background-size: cover;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    border-radius: 0.6em;
+}
+
+nav {
+    margin-left: 1.57%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 11px;
+    padding: 0;
+    color: rgb(252, 255, 55);
+}
+
+h3 {
+    text-transform: uppercase;
+    padding-top: 0;
+    color: rgb(252, 255, 55);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1.57%;
+    font-size: 0.81em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgb(252,255,55);
+    padding-top: 0;
+    padding-bottom: 0.1em;
+    width: 30%;
+}
+
+body {
+    background-color: black;
+}
+
+img:hover {
+    border-color: rgb(252, 255, 55);
+    color: rgb(252, 255, 55);
+    box-shadow: 0.2em 0.5em 0.5em -0.2em rgb(252,255,55);
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+span {
+    padding-left: 72.8%;
+}
+
+button {
+    background: none;
+    color: rgb(252, 255, 55);
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    border-radius: 2em;
+}
+
+button:hover {
+    border-color: white;
+    color: white;
+    box-shadow: 0.2em 0.5em 0.5em -0.4em rgb(252, 255, 55);
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+hr {
+    margin: 1% 1.57%;
+    border-color: rgb(252, 255, 55);
+}
