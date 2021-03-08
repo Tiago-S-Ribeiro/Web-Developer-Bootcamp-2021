@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+section {
+    background-color: royalblue;
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+}
+
+div {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%; /*200% de 40px*/
+}
+
+article {
+    font-size: 15px;
+}
+
+#ems p {
+    font-size: 1em;
+}
+
+#ems h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+#ems h3 {
+    font-size: 1.5em;
+}
+
+/*
+Os em's sao uteis para scalability dos elementos, para manterem proporção. Pq é um valor relativo a ALGO. Enquanto pixeis sao valores
+absolutos. Sao x pixeis, seja qual for o tamanho dos elementos, do ecrã, etc.
+*/
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #2a9d8f;
+    color: white;
+}
+
+button:hover {
+    background-color: #163e6b;
+    color: #f1faee;
+}
+
+/* ul {
+    font-size: 1.5em;
+}
+-> Isto dá asneira pq temos muitas nestes ul's. cada uma vai buscar o tamanho do componente pai e fica com um size de 1.5x esse tamanho.
+Ou seja, a cada nivel, os tamanhos vao aumentar pq cada uma, usa o tamanho do parent. entao usa-se rems, como em baixo: */
+
+#rems ul {
+    font-size: 0.8rem;
+}
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}

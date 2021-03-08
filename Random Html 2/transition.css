@@ -1,0 +1,45 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #dc2f02;
+    transition: 1s;
+    /* transition: background-color 2s 1s; se usa-se isto em vez da de cima, a transicao (mudanca de forma) era instantanea. mas a mudança
+    da background color demorava 2s. o 1s é o delay, ou seja, depois do hover, so 1s depois é que comeca a transicao de 2s de cor. 
+    Transition:
+        PROPERTY | DURATION | x | DELAY
+        x: aqui pode ter uma timing function de css
+    */
+}
+
+.circle:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+section div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 20px 0;
+    transition: margin-left 2s;
+}
+
+section:hover div {
+    margin-left: 200px;
+}
+
+/*------------------ TIMING FUNCTIONS ------------------*/
+/* https://easings.net/ */
+
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+}
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
+}
