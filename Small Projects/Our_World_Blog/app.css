@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ---------------------------------------------------------------------------------- */
+
+body {
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    font-family: "Nunito", sans-serif;
+}
+
+h2 {
+    color:#edf6f9;
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+#navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#navbar .navbar-brand {
+    color:#edf6f9;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+#navbar .nav-link {
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #edf6f9;
+}
+
+#navbar .nav-link:hover {
+    color: #fbc2eb;
+}
+
+#navbar .navIcon {
+    width: 0.89em;
+    height: 0.89em;
+    padding-top: 1;
+    margin: 0;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px){
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+}
+
+p {
+    text-align: justify;
+    color: #edf6f9;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+img {
+    border-radius: 0.75em;
+}
+
+.content {
+    margin-bottom: 2em;
+}
+
+hr {
+    height: 1px;
+    background-color: #edf6f9;
+    border: none;
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: 10em;
+}
+
+.endText {
+    color: #edf6f9;
+    font-weight: 100;
+}
+
+.navbar.scrolled {
+    background-color: #cf6cc9;
+    transition: background-color 1s;
+}
